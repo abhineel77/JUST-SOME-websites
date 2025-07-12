@@ -1,0 +1,192 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0056b3; /* A nice blue */
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.back-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+}
+
+.back-link:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Homepage Styles */
+.homepage-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.link-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+}
+
+.link-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.link-box a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+    display: block; /* Make the whole box clickable */
+}
+
+.homepage-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%; /* If you want circular logos */
+    object-fit: cover;
+    border: 3px solid #0056b3;
+}
+
+/* Team Selection Pages (International & IPL) */
+.team-selection {
+    text-align: center;
+}
+
+.team-selection h2 {
+    color: #0056b3;
+    margin-bottom: 30px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.team-card a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.team-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain; /* Ensures the logo fits without cropping */
+    margin-bottom: 10px;
+    border-radius: 5px; /* Slightly rounded corners for logos */
+}
+
+/* Individual Team Pages */
+.team-matches {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+.team-matches h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.match-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.match-card h3 {
+    color: #d9534f; /* A reddish color for match titles */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.match-date {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.match-summary {
+    margin-bottom: 15px;
+}
+
+.match-link {
+    display: inline-block;
+    background-color: #5cb85c; /* A green color */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.match-link:hover {
+    background-color: #4cae4c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
